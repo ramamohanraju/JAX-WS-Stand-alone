@@ -21,8 +21,9 @@ Java contains an embedded lightweight server which would be used for deploying t
 Check following URL in browser to check it is running or not:
 http://localhost:9091/Vihaan?wsdl
 
-----------------------------------------------------
+
 Client:
+----------------------------------------------------
 You can use SOAP UI for testing.
 
 Java implementation will be coming soon.
