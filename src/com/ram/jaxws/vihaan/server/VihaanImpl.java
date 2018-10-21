@@ -7,7 +7,6 @@ public class VihaanImpl implements Vihaan {
 
 	@Override
 	public String getOwnerName(String vehicleNumber) {
-		return vehicleNumber+": Ram";
+		return vehicleNumber + ": Ram";
 	}
-
 }

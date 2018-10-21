@@ -14,17 +14,15 @@ public class VihaanClient {
 		System.out.println(response);
 	}
 
-	private String sendRequest(String vehicleNumber) throws MalformedURLException {
-		//URL of the WSDL hosted
+	public String sendRequest(String vehicleNumber) throws MalformedURLException {
+		// URL of the WSDL hosted
 		URL wsdlURL = new URL("http://localhost:9091/Vihaan?wsdl");
-		
-		//Target namespace and interface name
+
+		// Target namespace and interface name
 		QName qName = new QName("http://server.vihaan.jaxws.ram.com/", "VihaanImplService");
-		
+
 		Service service = Service.create(wsdlURL, qName);
 		Vihaan vihaanServicePort = service.getPort(Vihaan.class);
 		return vihaanServicePort.getOwnerName(vehicleNumber);
 	}
-	
-	
 }
