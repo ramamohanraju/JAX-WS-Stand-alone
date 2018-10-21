@@ -1,7 +1,7 @@
 # JAX-WS-Stand-alone
 JAX WS (SOAP) webservice server and client example for stand alone execution.
 
-Java version used: Java 8
+Java version used: Java 8.
 Import the project into eclipse.
 
 Server:
