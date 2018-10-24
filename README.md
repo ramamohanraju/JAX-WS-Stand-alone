@@ -19,4 +19,7 @@ Client:
 
 **Using direct client:**(where server implementation available directly) Run VihaanClient class with 'Run as Java application'.
 
-**Using clinet:** TODO
+**Using client stubs - wsimport:**
+  - Generate stub classes using *wsimport* : wsimport -s . http://localhost:9091/Vihaan?wsdl
+  - Also mention custom package name if required by using *-p* in the above command.
+  - Add these stubs to project and run the client.

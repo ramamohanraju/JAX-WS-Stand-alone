@@ -5,6 +5,7 @@ import javax.jws.WebService;
 
 @WebService
 public interface Vihaan {
+
 	@WebMethod
 	String getOwnerName(String vehicleNumber);
 }
